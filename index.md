@@ -11,6 +11,6 @@ You can use the [editor on GitHub](https://github.com/Synthesis-AI-Dev/dataset_p
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-![Image](srchttps://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg)
-![Image](srchttps://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg)
-![Image](srchttps://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg)
+![Image](https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg)
+![Image](https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg)
+![Image](https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg)
