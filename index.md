@@ -1,51 +1,65 @@
-## Overview
+Synthesis AI provides on-demand generation of vast amounts of photorealistic image data with an accompanying set of never before available rich 3D labels. 
+&nbsp;
 
-You can use the [editor on GitHub](https://github.com/Synthesis-AI-Dev/dataset_page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Close Up Dataset
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##### Overview
 
-## Dataset 1
+* 10k images
+* 100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images
+* Rich set of pixel-perfect labels including segmentation maps, depth, surface normals, and 3D landmarks
+* Variation of expressions from neutral to extreme
+* Variation in eye gaze over 10°
+* Variation of head pose of 30° in all directions
+* Many different hairstyles, colors, and facial hair
+* Accessories include glasses, headphones, and face masks
+* Variation in outfits
+* Variation in background over a wide range of lighting and confounding elements
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-You can use the [editor on GitHub](https://github.com/Synthesis-AI-Dev/dataset_page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The data can be used to train the following areas:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Facial segmentation
+    * Variation over identities, facial expression, and confounds challenges models segmenting facial regions.
+    * Granular subsegmentation maps includes X regions such as "ear_left", "eyelashes", "eyelid", “hair”
+* Matting / Background Removal
+    * Variation in background, lighting, and hair styles produce mimics hard to segment real-world conditions.
+    * Pixel-accurate alpha masks as ground truth
+* Landmark Estimation
+    * A high variation of camera perspectives and facial expressions enables different perspectives on the face in order to improve the landmark estimation.
+    * 2D and 3D anatomical and contour landmarks available.  \
 
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-
-## Dataset 2
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-You can use the [editor on GitHub](https://github.com/Synthesis-AI-Dev/dataset_page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+    
+<img width="200" src="./assets/img/close_1.png"/>
+<img width="200" src="./assets/img/close_2.png"/>
+<img width="200" src="./assets/img/close_3.png"/>
 
 
-## Dataset 3
+&nbsp;
+&nbsp;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-You can use the [editor on GitHub](https://github.com/Synthesis-AI-Dev/dataset_page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Whole Body View Dataset
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The data can be used to train the following areas:
 
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+
+
+* Pose Estimation
+* Gesture Recognition
+* Whole Body Segmentation
+
+<img width="200" src="./assets/img/whole_1.png"/>
+<img width="200" src="./assets/img/whole_2.png"/>
+<img width="200" src="./assets/img/whole_3.png"/>
+
+
+&nbsp;
+&nbsp;
+## In Vehicle Dataset
+
+The data can be used to train the following areas:
+
+* Gaze Estimation in car 
+
+<img width="200" src="./assets/img/vehicle_1.png"/>
+<img width="200" src="./assets/img/vehicle_2.png"/>
+<img width="200" src="./assets/img/vehicle_3.png"/>
