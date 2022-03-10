@@ -11,13 +11,13 @@ You can use the [editor on GitHub](https://github.com/Synthesis-AI-Dev/dataset_p
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
 
 ## Dataset 2
 
@@ -26,13 +26,13 @@ You can use the [editor on GitHub](https://github.com/Synthesis-AI-Dev/dataset_p
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
 
 
 ## Dataset 3
@@ -42,10 +42,10 @@ You can use the [editor on GitHub](https://github.com/Synthesis-AI-Dev/dataset_p
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
-<img width="400" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
+<img width="200" src="https://docs.synthesis.ai/images/expressions/aa-039.rgb.jpg"/>
