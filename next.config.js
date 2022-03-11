@@ -16,7 +16,9 @@ module.exports = withMDX({
   images: {
     loader: "custom"
   },
-  assetPrefix: isProd ? "test-gh-pages" : "",
+  basePath: isProd ? "/test-gh-pages" : "",
+  assetPrefix: isProd ? "/test-gh-pages/": "",
+  // assetPrefix: isProd ? "test-gh-pages" : "",
   reactStrictMode: true,
   // Append the default value with md extensions
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],

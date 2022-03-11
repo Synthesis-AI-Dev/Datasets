@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { mainPageURL, repoName, title, pathBasedOnEnv, saiGithubUserName, saiGithubURL } from '../config/config'
+import { mainPageURL, repoName, title, saiGithubUserName, saiGithubURL } from '../config/config'
 // import logo from '../public/img/logo.png'
 import { imageLoader } from '../loaders/loader'
 
