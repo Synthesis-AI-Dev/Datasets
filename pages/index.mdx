@@ -1,5 +1,7 @@
 import Layout from '../components/layout.tsx'
 import Image from 'next/image'
+import {repoName} from '../config/config'
+import { imageLoader } from '../loaders/loader'
 
 Synthesis AI provides on-demand generation of vast amounts of photorealistic image data with an accompanying set of never before available rich 3D labels. 
 &nbsp;
@@ -31,9 +33,8 @@ The data can be used to train the following areas:
     * A high variation of camera perspectives and facial expressions enables different perspectives on the face in order to improve the landmark estimation.
     * 2D and 3D anatomical and contour landmarks available.  
 
-<Image width={200} height={200} src="/img/close_1.png" />
-<Image width={200} height={200} src="/img/close_2.png" />
-<Image width={200} height={200} src="/img/close_3.png" />
+
+<Image loader={imageLoader} width={200} height={200} src={'close_2.png'} /> 
 
 &nbsp;
 &nbsp;
@@ -49,10 +50,6 @@ The data can be used to train the following areas:
 * Whole Body Segmentation
 
 
-<Image width={200} height={200} src="/img/whole_1.png" />
-<Image width={200} height={200} src="/img/whole_2.png" />
-<Image width={200} height={200} src="/img/whole_3.png" />
-
 
 &nbsp;
 &nbsp;
@@ -61,10 +58,5 @@ The data can be used to train the following areas:
 The data can be used to train the following areas:
 
 * Gaze Estimation in car 
-
-<Image width={200} height={200} src="/img/vehicle_1.png" />
-<Image width={200} height={200} src="/img/vehicle_2.png" />
-<Image width={200} height={200} src="/img/vehicle_3.png" />
-
 
 export default ({children}) => <Layout> {children} </Layout>

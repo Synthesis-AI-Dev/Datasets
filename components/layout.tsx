@@ -1,21 +1,25 @@
 import React from 'react'
 import Image from 'next/image'
+import { mainPageURL, repoName, title, pathBasedOnEnv, saiGithubUserName, saiGithubURL } from '../config/config'
+// import logo from '../public/img/logo.png'
+import { imageLoader } from '../loaders/loader'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
+  // const logoSrc = pathBasedOnEnv("/img/logo.png")
   return (
     <>
       <header>
-        <h1><a href="https://synthesis-ai-dev.github.io/open-synthetics/">Synthesis AI Open Dataset</a></h1>
-        <Image width={1919/10} height={469/10} src="/img/logo.png" alt="Logo" />
+        <h1><a href={mainPageURL}>{title}</a></h1>
+        <Image loader={imageLoader} width={1919/10} height={469/10} src="logo.png" alt="Logo" />
         <p></p>
-        <p className="view"><a href="https://github.com/Synthesis-AI-Dev/open-synthetics">View the Project on GitHub
-          <small>Synthesis-AI-Dev/open-synthetics</small></a></p>
+        <p className="view"><a href={`${saiGithubURL}/${repoName}`}>View the Project on GitHub
+          <small>{saiGithubUserName}/{repoName}</small></a></p>
       </header>
       <section>
         {children}
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/Synthesis-AI-Dev">Synthesis-AI-Dev</a></p>
+        <p>This project is maintained by <a href={saiGithubURL}>{saiGithubUserName}</a></p>
       </footer>
     </>
   )
