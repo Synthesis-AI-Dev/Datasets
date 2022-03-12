@@ -1,11 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import { mainPageURL, repoName, title, saiGithubUserName, saiGithubURL } from '../config/config'
-// import logo from '../public/img/logo.png'
+import { mainPageURL, title, saiGithubUserName, saiGithubURL, repoName } from '../config'
 import { imageLoader } from '../loaders/loader'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  // const logoSrc = pathBasedOnEnv("/img/logo.png")
   return (
     <>
       <header>

@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 
+const {repoName} = require('./config')
 const isProduction = process.env.NODE_ENV === 'production'
 
 const withMDX = require('@next/mdx')({
@@ -17,11 +18,9 @@ module.exports = withMDX({
     loader: "custom"
   },
   publicRuntimeConfig: {
-    // used in '/components/Link.js/', for more details go to the component itself
-    linkPrefix: isProduction ? '/test-gh-pages' : ''
+    linkPrefix: isProduction ? `/${repoName}` : ''
   },
-  // basePath: isProduction ? "/test-gh-pages" : "",
-  assetPrefix: isProduction ? "/test-gh-pages/" : "",
+  assetPrefix: isProduction ? `/${repoName}/` : "",
   reactStrictMode: true,
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
 })
