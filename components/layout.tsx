@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { mainPageURL, title, saiGithubUserName, saiGithubURL, repoName } from '../config'
-import { imageLoader } from '../loaders/loader'
+import { imageLoader } from '../services/loaders'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

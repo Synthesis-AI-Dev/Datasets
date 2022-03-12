@@ -9,15 +9,13 @@
  * This HOC solves the problem, by adding the prefix (which is defined in next.config.js)
  * to 'as' property
  */
-import getConfig from 'next/config';
 import Link from 'next/link';
 import React from 'react';
+import { linkPrefix } from '../services/run-time';
 
-const { publicRuntimeConfig } = getConfig();
-const linkPrefix = publicRuntimeConfig.linkPrefix;
 
-const PrefixedLink = ({ href, as = href, children }: {href: string, as: string, children:React.ReactNode}) => (
-  <Link href={href} as={`${linkPrefix}${as}`}>
+const PrefixedLink = ({ href, children }: {href: string, children:React.ReactNode}) => (
+  <Link href={href} as={`${linkPrefix}${href}`}>
     {children}
   </Link>
 );
