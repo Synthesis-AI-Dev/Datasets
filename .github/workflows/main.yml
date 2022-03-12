@@ -2,9 +2,9 @@ name: Deploy to gh-pages
 
 on:
   push:
-    branches: [ next4 ]
+    branches: [ master ]
   pull_request:
-    branches: [ next4 ]
+    branches: [ master ]
 
 jobs:
   build:
