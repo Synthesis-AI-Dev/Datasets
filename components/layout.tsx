@@ -1,24 +1,29 @@
 import React from 'react'
 import Image from 'next/image'
 import { mainPageURL, title, saiGithubUserName, saiGithubURL, repoName } from '../config'
-import { imageLoader } from '../services/loaders'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <header>
-        <h1><a href={mainPageURL}>{title}</a></h1>
-        <Image loader={imageLoader} width={1919/10} height={469/10} src="logo.png" alt="Logo" />
-        <p></p>
-        <p className="view"><a href={`${saiGithubURL}/${repoName}`}>View the Project on GitHub
-          <small>{saiGithubUserName}/{repoName}</small></a></p>
+      <header className="header">
+        <div className="container">
+          <div className="header__content"><a href="https://synthesis.ai/" className="header-logo">
+            <object type="image/svg+xml" data="https://synthesis.ai/wp/wp-content/uploads/2021/03/logo.svg" width="187" height="47"></object>
+          </a>
+          </div>
+        </div>
       </header>
-      <section>
-        {children}
-      </section>
-      <footer>
-        <p>This project is maintained by <a href={saiGithubURL}>{saiGithubUserName}</a></p>
-      </footer>
+      <div className='container'>
+        <section>
+          <h1><a href={mainPageURL}>{title}</a></h1>
+          {children}
+        </section>
+        <footer>
+          <p>This project is maintained by <a href={saiGithubURL}>{saiGithubUserName}</a></p>
+          <p className="view"><a href={`${saiGithubURL}/${repoName}`}>View the Project on GitHub
+            <small>{saiGithubUserName}/{repoName}</small></a></p>
+        </footer>
+      </div>
     </>
   )
 }
