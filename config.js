@@ -1,6 +1,6 @@
 
 const saiGithubUserName = "Synthesis-AI-Dev"
-const repoName = "test-gh-pages"
+const repoName = "open-synthetics"
 const saiGithubIOURL = `https://${saiGithubUserName.toLocaleLowerCase()}.github.io`
 
 module.exports = {
