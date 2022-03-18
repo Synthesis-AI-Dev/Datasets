@@ -1,0 +1,440 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  width: 100%;
+  font-family: "Open Sans";
+  font-weight: 400;
+  background: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a:not(.btn):hover {
+  text-decoration: underline;
+}
+input,
+select,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+p {
+  word-wrap: break-word;
+}
+h1 > span,
+h2 > span,
+h3 > span,
+h4 > span,
+h5 > span,
+h6 > span {
+  display: block;
+  word-wrap: break-word;
+}
+iframe {
+  border: 0;
+}
+* {
+  box-sizing: border-box;
+}
+:root.js-text-scaling {
+  --mobile-font-size: 4vw;
+  --default-font-size: 16px;
+}
+.item-absolute {
+  position: absolute;
+}
+.item-relative {
+  position: relative;
+}
+.item-block {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.item-content-box {
+  box-sizing: content-box;
+}
+.hidden {
+  display: none;
+}
+.clearfix {
+  clear: both;
+}
+.headline {
+  font-family: "Open Sans";
+  font-weight: 800;
+}
+.headline.section-headline {
+  margin: 0.5rem 0 2rem 0;
+}
+.section-fit {
+  max-width: 400px;
+}
+:root {
+  --section-relative-margin: 0 auto;
+}
+.text-align-center {
+  text-align: center;
+}
+.section-relative {
+  position: relative;
+  margin: 0 auto;
+}
+.section-inner {
+  height: 100%;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+#main-section {
+  height: 45.5rem;
+  max-width: 100%;
+  background: url(//v.fastcdn.co/u/5989b1a1/58940507-0-Untitled-1.jpg) repeat rgb(255, 255, 255) 50% 98% / cover;
+}
+#logo {
+  top: 2.1875rem;
+  left: 5.25rem;
+  height: 4.1519rem;
+  width: 13.3125rem;
+  z-index: 21;
+}
+#title {
+  top: 8.5rem;
+  left: 1.25rem;
+  height: 3.625rem;
+  width: 22.5rem;
+  z-index: 6;
+  color: white;
+  font-size: 1.7957rem;
+  line-height: 1.8125rem;
+  text-align: center;
+}
+#below-title-description {
+  top: 14rem;
+  left: 1.25rem;
+  height: 17.875rem;
+  width: 22.5rem;
+  z-index: 3;
+  font-size: 0.9907rem;
+  line-height: 1.4rem;
+  text-align: center;
+  color: #ffffff;
+}
+#download-instructions-button {
+  top: 33.75rem;
+  left: 5.9375rem;
+  height: 3.25rem;
+  width: 13.0625rem;
+  z-index: 19;
+}
+.btn {
+  cursor: pointer;
+  text-align: center;
+  transition: border 0.5s;
+  width: 100%;
+  border: 0;
+  white-space: normal;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+  line-height: 120%;
+}
+.btn-shadow {
+  box-shadow: 0 1px 3px rgba(1, 1, 1, 0.5);
+}
+#download-instructions-button .btn:hover {
+  background: #ed9126;
+  color: #ffffff;
+}
+#download-instructions-button .btn {
+  background: linear-gradient(#ffffff, #ffffff 50%);
+  color: #37465a;
+  font-size: 0.9907rem;
+  font-family: "Open Sans";
+  font-weight: 800;
+  height: 3.25rem;
+  width: 13.0625rem;
+  border-radius: 0;
+}
+#page-block-specifications {
+  padding: 2rem 3rem 1rem;
+}
+.small-title {
+  font-size: 0.743rem;
+  line-height: 1.05rem;
+  text-align: left;
+}
+#images-block {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.sample-image {
+  width: 100%;
+  max-width: 150px;
+  margin: auto;
+  display: block;
+}
+.section-title {
+  color: #37465a;
+  font-size: 1.4241rem;
+  line-height: 1.4375rem;
+  text-align: left;
+}
+#paragraph-container {
+  color: #37465a;
+  font-size: 0.9907rem;
+  line-height: 1.4rem;
+}
+#access-button-container {
+  top: 45.9375rem;
+  left: 7.1875rem;
+  height: 3.25rem;
+  width: 10.5625rem;
+  z-index: 22;
+}
+#access-button-container .btn.btn-effect3d:active {
+  box-shadow: none;
+}
+#access-button-container .btn:hover {
+  background: #ed9126;
+  color: #ffffff;
+}
+#access-button-container .btn {
+  background: #f26621;
+  color: #ffffff;
+  font-size: 0.9907rem;
+  font-family: "Open Sans";
+  font-weight: 800;
+  height: 3.25rem;
+  width: 10.5625rem;
+  border-radius: 0;
+}
+#page-block-second-row {
+  background: rgb(249, 248, 246);
+  padding: 3rem 3rem 0;
+}
+
+#key-title {
+  font-size: 0.743rem;
+  line-height: 1.05rem;
+  text-align: center;
+}
+.orange-text {
+  color: #f26621;
+}
+#big-dark-title-container {
+  color: #37465a;
+  font-size: 1.6099rem;
+  line-height: 1.625rem;
+}
+.content-layout {
+  max-width: 70rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+.third-p {
+  font-size: 0.9907rem;
+  text-align: left;
+  line-height: 1.6rem;
+  color: #37465a;
+  max-width: 37rem;
+  margin-bottom: 2rem;
+}
+
+.specifications-block{
+  max-width: 35rem;
+}
+#page-block-download {
+  height: 32rem;
+  max-width: 100%;
+  background: rgb(255, 255, 255);
+}
+#download-title {
+  margin-top: 2rem;
+  color: #37465a;
+  font-size: 1.3622rem;
+  line-height: 1.375rem;
+}
+
+.modal-on {
+  overflow: hidden;
+}
+#page-block-footer {
+  display: flex;
+  flex-direction: column;
+  background: rgb(249, 248, 246);
+  padding: 2.5rem 0 1rem 0;
+}
+.logo {
+  width: 12rem;
+  margin: auto auto 0 auto;
+}
+.flex-container {
+  display: flex;
+}
+
+#copyright {
+  color: #37465a;
+  font-size: 0.8669rem;
+  line-height: 1.4rem;
+  text-align: center;
+}
+@media screen and (min-width: 480px) {
+  .sample-image{
+    width: 50%;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 400px) {
+  :root {
+    font-size: 4vw;
+  }
+  :root.js-text-scaling {
+    font-size: var(--mobile-font-size);
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 767px) {
+  :root {
+    font-size: 16px;
+  }
+  :root.js-text-scaling {
+    font-size: var(--default-font-size);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  :root {
+    font-size: 1.33vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-fit {
+    max-width: 60rem;
+  }
+  #main-section {
+    height: 42.3125rem;
+    max-width: 100%;
+    background: url(//v.fastcdn.co/u/5989b1a1/58940507-0-Untitled-1.jpg) repeat rgb(255, 255, 255) 50% 98% / cover;
+  }
+  #logo {
+    top: 2.125rem;
+    left: 0;
+    height: 3.9375rem;
+    width: 12.625rem;
+  }
+  #title {
+    top: 6.6875rem;
+    left: 9.75rem;
+    height: 6.625rem;
+    width: 40.4375rem;
+    font-size: 2.7245rem;
+    line-height: 3.3rem;
+  }
+  #below-title-description {
+    top: 14.6875rem;
+    left: 12.625rem;
+    height: 15rem;
+    width: 34.75rem;
+    font-size: 0.9288rem;
+    line-height: 1.5rem;
+  }
+  #download-instructions-button {
+    top: 30.4375rem;
+    left: 22.0625rem;
+    height: 3.25rem;
+    width: 15.8125rem;
+  }
+  #download-instructions-button .btn.btn-effect3d:active {
+    box-shadow: none;
+  }
+  #download-instructions-button .btn {
+    font-size: 0.9907rem;
+    height: 3.25rem;
+    width: 15.8125rem;
+  }
+  .small-title {
+    font-size: 0.743rem;
+    line-height: 1.2rem;
+  }
+  #images-block {
+    width: 40%;
+    margin-bottom: unset;
+    margin-right: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.9814rem;
+    line-height: 2.4rem;
+  }
+  #paragraph-container {
+    font-size: 0.9907rem;
+    line-height: 1.6rem;
+  }
+  #access-button-container {
+    top: 32.5625rem;
+    left: 32.875rem;
+    height: 3.625rem;
+    width: 10.5625rem;
+  }
+  #access-button-container .btn.btn-effect3d:active {
+    box-shadow: none;
+  }
+  #access-button-container .btn {
+    font-size: 0.9907rem;
+    font-family: "Open Sans";
+    font-weight: 800;
+    height: 3.625rem;
+    width: 10.5625rem;
+  }
+  #key-title {
+    font-size: 0.743rem;
+    line-height: 1.2rem;
+  }
+  #big-dark-title-container {
+    font-size: 2.3529rem;
+    line-height: 2.85rem;
+  }
+  .content-layout {
+    display: flex;
+    flex-direction: row;
+  }
+  .third-p {
+    font-size: 0.9907rem;
+    line-height: 1.6rem;
+    max-width: 20rem;
+  }
+  #images-block{
+  }
+  #page-block-download {
+    height: 29.5rem;
+  }
+  #download-title {
+    font-size: 1.7337rem;
+    line-height: 2.1rem;
+  }
+  #copyright {
+    font-size: 0.8669rem;
+  }
+}

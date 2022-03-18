@@ -9,5 +9,4 @@ module.exports = {
     saiGithubIOURL,
     saiGithubURL: `https://github.com/${saiGithubUserName}`,
     mainPageURL: `${saiGithubIOURL}/${repoName}`,
-    title: "Synthesis AI Open Dataset",
 }
