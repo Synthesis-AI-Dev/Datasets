@@ -10,6 +10,7 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.40",
     "@types/react-dom": "^17.0.13",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -20,7 +21,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy-dev": "PUBLIC_URL=https://synthesis-ai-dev.github.io/dev-gh-pages npm run build && gh-pages -d build -r https://github.com/Synthesis-AI-Dev/dev-gh-pages.git",
+    "deploy-stage": "PUBLIC_URL=https://synthesis-ai-dev.github.io/stage-gh-pages npm run build && gh-pages -d build -r https://github.com/Synthesis-AI-Dev/stage-gh-pages.git ",
+    "deploy-prod": "PUBLIC_URL=https://synthesis-ai-dev.github.io/open-synthetics npm run build && gh-pages -d build -r https://github.com/Synthesis-AI-Dev/open-synthetics.git"
   },
   "eslintConfig": {
     "extends": [
