@@ -6,8 +6,8 @@
 
 ## Deploy
 
-`npm run deploy-dev`
+`npm run deploy-dev` to deploy to https://synthesis-ai-dev.github.io/dev-gh-pages 
 
-`npm run deploy-stage`
+`npm run deploy-stage` to deploy to https://synthesis-ai-dev.github.io/stage-gh-pages
 
-`npm run deploy-prod`
+`npm run deploy-prod` to deploy to https://synthesis-ai-dev.github.io/open-synthetics
