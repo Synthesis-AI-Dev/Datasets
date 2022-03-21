@@ -32,9 +32,9 @@ const App = () => {
                     </div>
 
                     <div className="item-absolute" id="download-instructions-button">
-                        <button className="onpage-link btn btn-shadow   item-block" data-at="button">
+                        <a className="onpage-link btn btn-shadow item-block" href="#page-block-download" data-at="button">
                             Download Insturctions
-                        </button>
+                        </a>
                     </div>
 
                 </div>
