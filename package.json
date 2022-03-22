@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "config": {
-    "dev_basename": "dev-gh-pages",
-    "stage_basename": "stage-gh-pages",
-    "prod_basename": "open-synthetics",
-    "remote_basename": "https://github.com/Synthesis-AI-Dev/",
-    "gh_build_command": "gh-pages -d build -r"
+    "dev": "dev-gh-pages",
+    "stage": "stage-gh-pages",
+    "prod": "open-synthetics",
+    "gh_build_command": "gh-pages -d build -r https://github.com/Synthesis-AI-Dev"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -20,6 +19,7 @@
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "typescript": "^4.6.2",
     "web-vitals": "^2.1.4"
@@ -29,9 +29,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy-dev": "PUBLIC_URL=/$npm_package_config_dev_basename npm run build && $npm_package_config_gh_build_command $npm_package_config_remote_basename$npm_package_config_dev_basename.git",
-    "deploy-stage": "PUBLIC_URL=/$npm_package_config_stage npm run build && $npm_package_config_gh_build_command $npm_package_config_remote_basename$npm_package_config_stage_basename.git",
-    "deploy-prod": "PUBLIC_URL=/$npm_package_config_prod npm run build && $npm_package_config_gh_build_command $npm_package_config_remote_basename$npm_package_config_prod_basename.git"
+    "deploy-dev": "PUBLIC_URL=/$npm_package_config_dev npm run build && $npm_package_config_gh_build_command/$npm_package_config_dev.git",
+    "deploy-stage": "PUBLIC_URL=/$npm_package_config_stage npm run build && $npm_package_config_gh_build_command/$npm_package_config_stage.git",
+    "deploy-prod": "PUBLIC_URL=/$npm_package_config_prod npm run build && $npm_package_config_gh_build_command/$npm_package_config_prod.git"
   },
   "eslintConfig": {
     "extends": [
