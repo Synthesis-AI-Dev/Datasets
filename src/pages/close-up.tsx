@@ -8,14 +8,7 @@ import close4 from '../img/close_4.png'
 
 const title = "Close-up Open Dataset by Synthesis"
 const description = [
-    "Synthesis AI provides on-demand generation of vast amounts of photorealistic image data with an accompanying set of never before available rich 3D labels. 100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images."
-]
-
-const dataset_description = [
-    "The Close Up Dataset showcases a diverse set of humans with the camera focused on the head and shoulder, in multiple environments and camera angles. This dataset is therefore particularly suited for machine learning tasks like facial segmentation, matting / background removal and landmark estimation – among others."
-]
-
-const license = [
+    "The Close Up Dataset showcases a diverse set of humans with the camera focused on the head and shoulder, in multiple environments and camera angles. This dataset is therefore particularly suited for machine learning tasks like facial segmentation, matting / background removal and landmark estimation – among others.",
     "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
 ]
 

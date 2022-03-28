@@ -9,14 +9,7 @@ import vehicle4 from '../img/vehicle_4.png'
 const title = "Vehicle Driver In-Cabin Dataset by Synthesis"
 
 const description = [
-    "Synthesis AI provides on-demand generation of vast amounts of photorealistic image data with an accompanying set of never before available rich 3D labels. 100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images."
-]
-
-const dataset_description = [
-    "The In-Vehicle Dataset showcases drivers of various sizes looking in different directions, in both visual spectrum and NIR.  Starting from 2022, it will be mandatory for the European Union car manufacturers to install warnings of driver drowsiness and distraction (e.g. smartphone use while driving). The dataset has cameras in 4 positions: top of dashboard, multimedia console, steering wheel and rear view mirror.  It also consists of  images taken at all times of day and night. This dataset is well suited for ML tasks such as gaze estimation, basic gesture recognition, and body size detection."
-]
-
-const license = [
+    "The In-Vehicle Dataset showcases drivers of various sizes looking in different directions, in both visual spectrum and NIR. The dataset has cameras in 4 positions: top of dashboard, multimedia console, steering wheel and rear view mirror.  It also consists of  images taken at all times of day and night. This dataset is well suited for ML tasks such as gaze estimation, basic gesture recognition, and body size detection.",
     "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
 ]
 
