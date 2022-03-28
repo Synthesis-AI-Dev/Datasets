@@ -33,7 +33,7 @@ const DatasetPageTemplate = ({ title, description, specifications, tasks, images
 
                     <div className="item-absolute" id="download-instructions-button">
                         <a className="onpage-link btn btn-shadow item-block" href="#page-block-download" data-at="button">
-                            Download Insturctions
+                            Download Instructions
                         </a>
                     </div>
 

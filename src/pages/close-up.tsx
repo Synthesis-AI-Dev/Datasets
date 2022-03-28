@@ -2,38 +2,44 @@ import React from 'react'
 import DatasetPageTemplate from '../components/dataset-page-template'
 import { newTask } from '../types/task'
 import close1 from '../img/close_1.png'
+import close2 from '../img/close_2.png'
+import close3 from '../img/close_3.png'
+import close4 from '../img/close_4.png'
 
 const title = "Close-up Open Dataset by Synthesis"
 const description = [
-    "Synthesis AI provides on-demand generation of vast amounts of photorealistic image data with an accompanying set of never before available rich 3D labels. 100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images.",
-    "Great for facial segmentation, Matting / Background Removal, Landmark Estimation, and more."
+    "The Close Up Dataset showcases a diverse set of humans with the camera focused on the head and shoulder, in multiple environments and camera angles. This dataset is therefore particularly suited for machine learning tasks like facial segmentation, matting / background removal and landmark estimation – among others.",
+    "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
 ]
+
 const specifications = [
     "10k images",
-    "Rich set of pixel-perfect labels including segmentation maps, depth, surface normals, and 3Dlandmarks",
-    "Variation of expressions from neutral to extreme",
-    "Variation in eye gaze over 10°",
-    "Variation of head pose of 30° in all directions",
-    "Many different hairstyles, colors, and facial hair",
-    "Accessories include glasses, headphones, and face masks",
+    "100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images",
+    "Rich set of pixel-perfect labels including segmentation maps, depth, surface normals, and 3D landmarks",
+    "Variation of expressions from neutral to extrem",
+    "Variation in eye gaze spanning 10° in all directions",
+    "Variation of head turn spanning 30° in all directions",
+    "Diverse hairstyles, colors, and facial hair",
+    "Accessories: glasses, headphones, and face masks",
     "Variation in outfits",
     "Variation in background over a wide range of lighting and confounding elements",
+    "Many different camera angles around the perso",
 ]
 const tasks = [
-    newTask("Variation", [
+    newTask("Facial segmentation", [
         "Variation over identities, facial expression, and confounds challenges models segmenting facial regions.",
-        'Granular subsegmentation maps include X regions such as "ear_left", "eyelashes", "eyelid", "hair"',
+        'Granular sub segmentation maps includes 35 face regions such as "ear_left", "eyelashes", "eyelid", "hair".',
     ]),
-    newTask("Effieciency", [
-        "Variation in background, lighting, and hair styles produce mimics hard to segment real-world conditions",
-        "Pixel-accurate alpha masks as ground truth"
+    newTask("Matting / Background Removal", [
+        "Variation in background, lighting, and hair styles produce mimics hard to segment real-world conditions.",
+        "Pixel-accurate alpha masks as ground truth."
     ]),
-    newTask("Perspectives", [
-        "A high variation of camera perspectives and facial expressions enables different perspectives on the face in order to improve the landmark estimation",
-        "2D and 3D anatomical and contour landmarks available"
+    newTask("Landmark Estimation", [
+        "A high variation of camera perspectives and facial expressions enables different perspectives on the face in order to improve the landmark estimation.",
+        "2D and 3D anatomical and contour landmarks available."
     ])
 ]
-const images = [close1, close1, close1, close1]
+const images = [close1, close2, close3, close4]
 
 const CloseUp = () => {
     return (

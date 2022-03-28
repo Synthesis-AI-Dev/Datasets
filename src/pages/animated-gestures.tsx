@@ -1,39 +1,47 @@
 import React from 'react'
 import DatasetPageTemplate from '../components/dataset-page-template'
 import { newTask } from '../types/task'
-import close1 from '../img/close_1.png'
+import animated1 from '../img/animated_1.png'
+import animated2 from '../img/animated_2.png'
+import animated3 from '../img/animated_3.png'
+import animated4 from '../img/animated_4.png'
 
 const title = "Animated Gestures Dataset by Synthesis"
 const description = [
-    "Synthesis AI provides on-demand generation of vast amounts of photorealistic image data with an accompanying set of never before available rich 3D labels. 100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images.",
-    "Great for facial segmentation, Matting / Background Removal, Landmark Estimation, and more."
+    "The Whole Body Animated Dataset showcases a diverse set of animated body poses, including motions in both the upper and lower body. As opposed to our Static Dataset, the sequential order of poses and environments are increased more than 100x in this animated dataset. This dataset is well suited for ML tasks such as pose estimation, whole body segmentation, and basic gesture recognition.",
+    "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
 ]
+
 const specifications = [
     "10k images",
-    "Rich set of pixel-perfect labels including segmentation maps, depth, surface normals, and 3Dlandmarks",
-    "Variation of expressions from neutral to extreme",
-    "Variation in eye gaze over 10°",
-    "Variation of head pose of 30° in all directions",
-    "Many different hairstyles, colors, and facial hair",
-    "Accessories include glasses, headphones, and face masks",
+    "Over 50 animation sequences",
+    "100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images",
+    "Rich set of pixel-perfect labels including segmentation maps, depth, surface normals, and 3D landmarks",
+    "Variation of expressions from neutral to medium (as opposed to extreme)",
+    "Variation in eye gaze spanning 10° in all directions",
+    "Variation of head turn spanning 30° in all directions",
+    "Diverse hairstyles, colors, and facial hair",
+    "Accessories: glasses, headphones, face masks and headwear",
     "Variation in outfits",
     "Variation in background over a wide range of lighting and confounding elements",
+    "Many different camera angles around the person",
 ]
 const tasks = [
-    newTask("Variation", [
-        "Variation over identities, facial expression, and confounds challenges models segmenting facial regions.",
-        'Granular subsegmentation maps include X regions such as "ear_left", "eyelashes", "eyelid", "hair"',
+    newTask("Pose Estimation", [
+        "Diverse animation sequences with various poses.",
+        "A high variation of camera perspectives allows a prediction of  the transformation of a model from a user-defined reference pose",
+        "Different heights and weights allow training with different body shapes."
     ]),
-    newTask("Effieciency", [
-        "Variation in background, lighting, and hair styles produce mimics hard to segment real-world conditions",
-        "Pixel-accurate alpha masks as ground truth"
+    newTask("Gesture Recognition", [
+        "Over 30 sequences with hand motion, 50 sequences with whole body motions",
+        "Wide variation in skin tone and lighting"
     ]),
-    newTask("Perspectives", [
-        "A high variation of camera perspectives and facial expressions enables different perspectives on the face in order to improve the landmark estimation",
-        "2D and 3D anatomical and contour landmarks available"
+    newTask("Whole Body Segmentation", [
+        "Large segmentation areas distributed over the body, including the arms, hands, background, hair, glasses, skin, and more.",
+        'Granular sub segmentation maps include 90 regions such as "neck", "torso_upper_right", "hand_right", "finger1_mid_left".'
     ])
 ]
-const images = [close1, close1, close1, close1]
+const images = [animated1, animated2, animated3, animated4]
 
 const AnimatedGestures = () => {
     return (
