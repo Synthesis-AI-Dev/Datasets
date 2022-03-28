@@ -8,8 +8,7 @@ import animated4 from '../img/animated_4.png'
 
 const title = "Animated Gestures Dataset by Synthesis"
 const description = [
-    "Synthesis AI provides on-demand generation of vast amounts of photorealistic image data with an accompanying set of never before available rich 3D labels. 100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images.",
-    "Great for facial segmentation, Matting / Background Removal, Landmark Estimation, and more."
+    "Synthesis AI provides on-demand generation of vast amounts of photorealistic image data with an accompanying set of never before available rich 3D labels. 100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images."
 ]
 
 const dataset_description = [
