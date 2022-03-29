@@ -9,7 +9,6 @@ import static4 from '../img/static_4.png'
 const title = "Static Gestures Dataset"
 const description = [
     "The Whole Body Static Dataset showcases a diverse set of still body poses, including motions in both the upper and lower body. As opposed to our Animated Dataset, the diversity of poses and environments are increased more than 100x in this static dataset. This dataset is well suited for ML tasks such as pose estimation, whole body segmentation, and basic gesture recognition.",
-    "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
 ]
 
 const specifications = [
