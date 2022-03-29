@@ -30,9 +30,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy-dev": "cross-env-shell PUBLIC_URL=/$npm_package_config_dev npm run build && $npm_package_config_gh_build_command/$npm_package_config_dev.git",
-    "deploy-stage": "cross-env-shell PUBLIC_URL=/$npm_package_config_stage npm run build && $npm_package_config_gh_build_command/$npm_package_config_stage.git",
-    "deploy-prod": "cross-env-shell PUBLIC_URL=/$npm_package_config_prod npm run build && $npm_package_config_gh_build_command/$npm_package_config_prod.git"
+    "deploy-dev": "cross-env PUBLIC_URL=/$npm_package_config_dev npm run build && $npm_package_config_gh_build_command/$npm_package_config_dev.git",
+    "deploy-stage": "cross-env PUBLIC_URL=/$npm_package_config_stage npm run build && $npm_package_config_gh_build_command/$npm_package_config_stage.git",
+    "deploy-prod": "cross-env PUBLIC_URL=/$npm_package_config_prod npm run build && $npm_package_config_gh_build_command/$npm_package_config_prod.git"
   },
   "eslintConfig": {
     "extends": [
