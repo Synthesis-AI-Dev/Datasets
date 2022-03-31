@@ -9,6 +9,7 @@ import close4 from '../img/close_4.png'
 const title = "Close-up Open Dataset"
 const description = [
     "The Close Up Dataset showcases a diverse set of humans with the camera focused on the head and shoulder, in multiple environments and camera angles. This dataset is therefore particularly suited for machine learning tasks like facial segmentation, matting / background removal and landmark estimation – among others.",
+    "Synthesis AI provides programmatic generation of vast amounts of photorealistic image data with an accompanying set of never-before-available rich 3D labels.  Learn more about our platform."
 ]
 
 const specifications = [
