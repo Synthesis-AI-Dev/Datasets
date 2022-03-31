@@ -10,7 +10,6 @@ const title = "Vehicle Driver In-Cabin Dataset"
 
 const description = [
     "The In-Vehicle Dataset showcases drivers of various sizes looking in different directions, in both visual spectrum and NIR. The dataset has cameras in 4 positions: top of dashboard, multimedia console, steering wheel and rear view mirror.  It also consists of  images taken at all times of day and night. This dataset is well suited for ML tasks such as gaze estimation, basic gesture recognition, and body size detection.",
-    "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
 ]
 
 const specifications = [

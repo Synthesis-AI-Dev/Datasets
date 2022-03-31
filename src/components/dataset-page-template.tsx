@@ -15,13 +15,13 @@ const DatasetPageTemplate = ({ title, description, specifications, tasks, images
                                 srcSet="//v.fastcdn.co/u/5989b1a1/58940432-0-SynthesisAI-SurveyRe.svg 2x" />
                         </div>
                     </div>
-                    <div className="item-absolute headline  " id="title" data-at="headline">
+                    <div className="item-absolute headline white-text " id="title" data-at="headline">
                         <h1>{title}</h1>
                     </div>
 
                     <div className="item-absolute" id="below-title-description" data-at="paragraph">
                         {description.map((line, i) =>
-                            <p key={i}>
+                            <p className="white-text" key={i}>
                                 {line}
                                 <br />
                                 <br />
@@ -35,8 +35,10 @@ const DatasetPageTemplate = ({ title, description, specifications, tasks, images
                         <a className="onpage-link btn btn-shadow item-block" href="#page-block-download" data-at="button">
                             Download Instructions
                         </a>
+                        <div className='white-text tiny-text text-align-center' id="license">
+                            *Free, Open <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> <u>Non Commercial License </u> </a>
+                        </div>
                     </div>
-
                 </div>
             </section>
 

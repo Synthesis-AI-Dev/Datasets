@@ -119,7 +119,6 @@ iframe {
   height: 3.625rem;
   width: 22.5rem;
   z-index: 6;
-  color: white;
   font-size: 1.7957rem;
   line-height: 1.8125rem;
   text-align: center;
@@ -133,7 +132,17 @@ iframe {
   font-size: 0.9907rem;
   line-height: 1.4rem;
   text-align: center;
+}
+.white-text {
   color: #ffffff;
+}
+.tiny-text {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+}
+#license{
+  margin-top: 3px;
+  font-weight: 700;
 }
 #download-instructions-button {
   top: 33.75rem;
@@ -200,30 +209,6 @@ iframe {
   font-size: 0.9907rem;
   line-height: 1.4rem;
 }
-#access-button-container {
-  top: 45.9375rem;
-  left: 7.1875rem;
-  height: 3.25rem;
-  width: 10.5625rem;
-  z-index: 22;
-}
-#access-button-container .btn.btn-effect3d:active {
-  box-shadow: none;
-}
-#access-button-container .btn:hover {
-  background: #ed9126;
-  color: #ffffff;
-}
-#access-button-container .btn {
-  background: #f26621;
-  color: #ffffff;
-  font-size: 0.9907rem;
-  font-family: "Open Sans";
-  font-weight: 800;
-  height: 3.25rem;
-  width: 10.5625rem;
-  border-radius: 0;
-}
 #page-block-second-row {
   background: rgb(249, 248, 246);
   padding: 3rem 3rem 0;
@@ -259,7 +244,7 @@ iframe {
   margin-bottom: 2rem;
 }
 
-.specifications-block{
+.specifications-block {
   max-width: 35rem;
 }
 #page-block-download {
@@ -298,7 +283,7 @@ iframe {
   text-align: center;
 }
 @media screen and (min-width: 480px) {
-  .sample-image{
+  .sample-image {
     width: 50%;
     display: inline-block;
   }
@@ -392,22 +377,6 @@ iframe {
     font-size: 0.9907rem;
     line-height: 1.6rem;
   }
-  #access-button-container {
-    top: 32.5625rem;
-    left: 32.875rem;
-    height: 3.625rem;
-    width: 10.5625rem;
-  }
-  #access-button-container .btn.btn-effect3d:active {
-    box-shadow: none;
-  }
-  #access-button-container .btn {
-    font-size: 0.9907rem;
-    font-family: "Open Sans";
-    font-weight: 800;
-    height: 3.625rem;
-    width: 10.5625rem;
-  }
   #key-title {
     font-size: 0.743rem;
     line-height: 1.2rem;
@@ -425,7 +394,7 @@ iframe {
     line-height: 1.6rem;
     max-width: 20rem;
   }
-  #images-block{
+  #images-block {
   }
   #page-block-download {
     height: 29.5rem;
