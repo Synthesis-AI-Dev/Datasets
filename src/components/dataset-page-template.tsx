@@ -80,7 +80,7 @@ const DatasetPageTemplate = ({ title, description, specifications, tasks, images
 
                 <div className='download-instructions-content'>
                     <ol>
-                        <li className='instruction'>Download the dataset using the AWS CLI. The CLI can be installed by following instructions provided by AWS <a href="https://synthesis.ai/products/"> <u>here</u></a>.
+                        <li className='instruction'>Download the dataset using the AWS CLI. The CLI can be installed by following instructions provided by AWS <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html"> <u>here</u></a>.
                         </li>
                         <li className='instruction'> To perform the download, run the command <code> aws s3 cp s3://opensynthetics-datasets/{`<SET_S3_FOLDER_NAME> <dst_directory>`} --recursive --no-sign-request </code>where SET_S3_FOLDER_NAME should be replaced with whatever folder name you want for a given dataset.
                         </li>
