@@ -6,7 +6,7 @@
     "dev": "dev-gh-pages",
     "stage": "stage-gh-pages",
     "prod": "open-synthetics",
-    "gh_build_command": "gh-pages -d build -r https://github.com/Synthesis-AI-Dev"
+    "gh_build_command": "gh-pages -d build -r git@github.com:Synthesis-AI-Dev"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",

@@ -15,14 +15,14 @@ const specifications = [
     "10k images",
     "100 diverse identities spanning gender, skin tone, and age. 1024 x 1024 RGB images",
     "Rich set of pixel-perfect labels including segmentation maps, depth, surface normals, and 3D landmarks",
-    "Variation of expressions from neutral to extrem",
+    "Variation of expressions from neutral to extreme",
     "Variation in eye gaze spanning 10° in all directions",
     "Variation of head turn spanning 30° in all directions",
     "Diverse hairstyles, colors, and facial hair",
     "Accessories: glasses, headphones, and face masks",
     "Variation in outfits",
     "Variation in background over a wide range of lighting and confounding elements",
-    "Many different camera angles around the perso",
+    "Many different camera angles around the person",
 ]
 const tasks = [
     newTask("Facial segmentation", [

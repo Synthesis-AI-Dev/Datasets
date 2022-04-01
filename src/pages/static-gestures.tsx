@@ -23,7 +23,7 @@ const specifications = [
     "Accessories: glasses, headphones, face masks and headwear",
     "Variation in outfits",
     "Variation in background over a wide range of lighting and confounding elements",
-    "Variation in camera angles spanning 30° in all directions around the perso",
+    "Variation in camera angles spanning 30° in all directions around the person",
 ]
 const tasks = [
     newTask("Pose Estimation", [
