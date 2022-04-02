@@ -40,6 +40,7 @@ const tasks = [
     ])
 ]
 const images = [static1, static2, static3, static4]
+const downloadFolder = "static-gestures-poses-dataset-by-synthesis-ai"
 
 const StaticGestures = () => {
     return (
@@ -49,6 +50,7 @@ const StaticGestures = () => {
             specifications={specifications}
             tasks={tasks}
             images={images}
+            downloadFolder={downloadFolder}
         />
     )
 }

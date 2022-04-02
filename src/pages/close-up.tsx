@@ -39,6 +39,7 @@ const tasks = [
     ])
 ]
 const images = [close1, close2, close3, close4]
+const downloadFolder = "close-up-dataset-by-synthesis-ai"
 
 const CloseUp = () => {
     return (
@@ -48,6 +49,7 @@ const CloseUp = () => {
             specifications={specifications}
             tasks={tasks}
             images={images}
+            downloadFolder={downloadFolder}
         />
     )
 }

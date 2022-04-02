@@ -41,6 +41,7 @@ const tasks = [
     ])
 ]
 const images = [animated1, animated2, animated3, animated4]
+const downloadFolder = "animated-gestures-poses-dataset-by-synthesis-ai"
 
 const AnimatedGestures = () => {
     return (
@@ -50,6 +51,7 @@ const AnimatedGestures = () => {
             specifications={specifications}
             tasks={tasks}
             images={images}
+            downloadFolder={downloadFolder}
         />
     )
 }

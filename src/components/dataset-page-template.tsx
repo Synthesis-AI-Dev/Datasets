@@ -3,7 +3,7 @@ import logoSvg from '../img/logo.svg'
 import '../App.css'
 import { Task } from '../types/task'
 
-const DatasetPageTemplate = ({ title, description, specifications, tasks, images }: { title: string, description: string[], specifications: string[], tasks: Task[], images: string[] }) => {
+const DatasetPageTemplate = ({ title, description, specifications, tasks, images, downloadFolder }: { title: string, description: string[], specifications: string[], tasks: Task[], images: string[], downloadFolder: string }) => {
     return (
         <main className='page-container'>
             <section id="first-orange-section" data-at="section">
@@ -82,7 +82,7 @@ const DatasetPageTemplate = ({ title, description, specifications, tasks, images
                     <ol>
                         <li className='instruction'>Download the dataset using the AWS CLI. The CLI can be installed by following instructions provided by AWS <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html"> <u>here</u></a>.
                         </li>
-                        <li className='instruction'> To perform the download, run the command <code> aws s3 cp s3://opensynthetics-datasets/{`<SET_S3_FOLDER_NAME> <dst_directory>`} --recursive --no-sign-request </code>where SET_S3_FOLDER_NAME should be replaced with whatever folder name you want for a given dataset.
+                        <li className='instruction'> To perform the download, run the command <code> aws s3 cp s3://opensynthetics-datasets/{downloadFolder} {`<dst_directory>`} --recursive --no-sign-request </code>
                         </li>
                     </ol>
                     <div id="license-with-image">

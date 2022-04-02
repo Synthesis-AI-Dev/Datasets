@@ -41,6 +41,7 @@ const tasks = [
     ])
 ]
 const images = [vehicle1, vehicle2, vehicle3, vehicle4]
+const downloadFolder = "vehicle-in-cabin-dataset-by-synthesis-ai"
 
 const VehicleDriverInCabin = () => {
     return (
@@ -50,6 +51,7 @@ const VehicleDriverInCabin = () => {
             specifications={specifications}
             tasks={tasks}
             images={images}
+            downloadFolder={downloadFolder}
         />
     )
 }
