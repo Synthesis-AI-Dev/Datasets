@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/open-synthetics/static/css/main.8ba097bb.css",
+    "main.js": "/open-synthetics/static/js/main.ea2dbd2b.js",
+    "static/js/787.c0286ff7.chunk.js": "/open-synthetics/static/js/787.c0286ff7.chunk.js",
+    "static/media/close_4.png": "/open-synthetics/static/media/close_4.ed7f78de3cca67461e78.png",
+    "static/media/animated_4.png": "/open-synthetics/static/media/animated_4.800d0d3639b6528b5f5e.png",
+    "static/media/animated_3.png": "/open-synthetics/static/media/animated_3.20581603f48bfda8da76.png",
+    "static/media/vehicle_3.png": "/open-synthetics/static/media/vehicle_3.bbc7985f393e51d9ff35.png",
+    "static/media/close_2.png": "/open-synthetics/static/media/close_2.4de193754a27395a9ccd.png",
+    "static/media/static_3.png": "/open-synthetics/static/media/static_3.0903df1a8832eb730f97.png",
+    "static/media/vehicle_2.png": "/open-synthetics/static/media/vehicle_2.e058fc2713aac3747933.png",
+    "static/media/static_4.png": "/open-synthetics/static/media/static_4.68cb93d403e77576336c.png",
+    "static/media/close_3.png": "/open-synthetics/static/media/close_3.9f0b7a67035869602203.png",
+    "static/media/vehicle_4.png": "/open-synthetics/static/media/vehicle_4.5c21de78bc7e7dc75949.png",
+    "static/media/close_1.png": "/open-synthetics/static/media/close_1.f4d6132bba6232d358f3.png",
+    "static/media/vehicle_1.png": "/open-synthetics/static/media/vehicle_1.18e8dd4ff95989d69756.png",
+    "static/media/static_2.png": "/open-synthetics/static/media/static_2.f845f079ede3d44d666c.png",
+    "static/media/animated_2.png": "/open-synthetics/static/media/animated_2.36b7cc6270624722e2ac.png",
+    "static/media/animated_1.png": "/open-synthetics/static/media/animated_1.9bfd77a880b60fc984e6.png",
+    "static/media/static_1.png": "/open-synthetics/static/media/static_1.d0570d13f0f00bbfea3f.png",
+    "static/media/logo.svg": "/open-synthetics/static/media/logo.abcfe0f189ad71a45e0169ce9fb7512d.svg",
+    "index.html": "/open-synthetics/index.html",
+    "main.8ba097bb.css.map": "/open-synthetics/static/css/main.8ba097bb.css.map",
+    "main.ea2dbd2b.js.map": "/open-synthetics/static/js/main.ea2dbd2b.js.map",
+    "787.c0286ff7.chunk.js.map": "/open-synthetics/static/js/787.c0286ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ba097bb.css",
+    "static/js/main.ea2dbd2b.js"
+  ]
+}
