@@ -43,7 +43,7 @@ const tasks = [
         "2D and 3D anatomical and contour landmarks available."
     ])
 ]
-const images = [close1, close2, close3, close4,close5,close6,close7,close8,close9]
+const images = [close1, close2, close3, close4, close5, close6, close7, close8, close9]
 const downloadFolder = "close-up-dataset-by-synthesis-ai"
 
 const CloseUp = () => {
