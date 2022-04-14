@@ -1,10 +1,15 @@
 import React from 'react'
 import DatasetPageTemplate from '../components/dataset-page-template'
 import { newTask } from '../types/task'
-import close1 from '../img/close_1.png'
-import close2 from '../img/close_2.png'
-import close3 from '../img/close_3.png'
-import close4 from '../img/close_4.png'
+import close1 from '../img/close1.png'
+import close2 from '../img/close2.png'
+import close3 from '../img/close3.png'
+import close4 from '../img/close4.png'
+import close5 from '../img/close5.png'
+import close6 from '../img/close6.png'
+import close7 from '../img/close7.png'
+import close8 from '../img/close8.png'
+import close9 from '../img/close9.png'
 
 const title = "Close-up Open Dataset"
 const description = [
@@ -38,7 +43,7 @@ const tasks = [
         "2D and 3D anatomical and contour landmarks available."
     ])
 ]
-const images = [close1, close2, close3, close4]
+const images = [close1, close2, close3, close4, close5, close6, close7, close8, close9]
 const downloadFolder = "close-up-dataset-by-synthesis-ai"
 
 const CloseUp = () => {
