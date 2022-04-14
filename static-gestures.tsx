@@ -43,7 +43,7 @@ const tasks = [
         'Granular sub segmentation maps include 90 regions such as "neck", "torso_upper_right", "hand_right", "finger1_mid_left".'
     ])
 ]
-const images = [static1, static2, static3, static4,static5, static6, static7, static8, static9]
+const images = [static1, static2, static3, static4, static5, static6, static7, static8, static9]
 const downloadFolder = "static-gestures-poses-dataset-by-synthesis-ai"
 
 const StaticGestures = () => {
