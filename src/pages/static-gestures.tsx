@@ -1,10 +1,15 @@
 import React from 'react'
 import DatasetPageTemplate from '../components/dataset-page-template'
 import { newTask } from '../types/task'
-import static1 from '../img/static_1.png'
-import static2 from '../img/static_2.png'
-import static3 from '../img/static_3.png'
-import static4 from '../img/static_4.png'
+import static1 from '../img/sg1.png'
+import static2 from '../img/sg2.png'
+import static3 from '../img/sg3.png'
+import static4 from '../img/sg4.png'
+import static5 from '../img/sg5.png'
+import static6 from '../img/sg6.png'
+import static7 from '../img/sg7.png'
+import static8 from '../img/sg8.png'
+import static9 from '../img/sg9.png'
 
 const title = "Static Gestures Dataset"
 const description = [
@@ -38,7 +43,7 @@ const tasks = [
         'Granular sub segmentation maps include 90 regions such as "neck", "torso_upper_right", "hand_right", "finger1_mid_left".'
     ])
 ]
-const images = [static1, static2, static3, static4]
+const images = [static1, static2, static3, static4, static5, static6, static7, static8, static9]
 const downloadFolder = "static-gestures-poses-dataset-by-synthesis-ai"
 
 const StaticGestures = () => {
