@@ -63,7 +63,7 @@ const DatasetPageTemplate = ({ title, description, specifications, tasks, images
 
                 <div className='content-layout'>
                     {tasks.map((block, i) =>
-                        <div key={i} className="third-p" data-at="paragraph">
+                        <div key={i} className="default-text third-p" data-at="paragraph">
                             <h5 className="orange-text headline text-align-center">{block.title}  </h5>
                             <ul>
                                 {block.points.map((point, i) => <li key={i}>{point}</li>)}
@@ -78,7 +78,7 @@ const DatasetPageTemplate = ({ title, description, specifications, tasks, images
                     Download Instructions
                 </h1>
 
-                <div className='download-instructions-content'>
+                <div className='default-text one-column-content'>
                     <ol>
                         <li className='instruction'>Download the dataset using the AWS CLI. The CLI can be installed by following instructions provided by AWS <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html"> <u>here</u></a>.
                         </li>
@@ -97,10 +97,23 @@ const DatasetPageTemplate = ({ title, description, specifications, tasks, images
             </section>
 
             <section id="page-block-footer">
-                <div id="copyright">
-                    Copyright © 2021. All rights reserved
+                <h1 id="usage-title" className="headline section-headline text-align-center" data-at="headline">
+                    Usage
+                </h1>
+                <section className="default-text one-column-content " data-at="section">
+                    <p className=''>
+                        The easiest wat to get started with our dataset is with our  <a className="underline" href="https://github.com/Synthesis-AI-Dev/face_api_dataset">face_api_dataset_library</a> in Python for parsing all of the output
+                        files, with a <a className="underline" href="https://colab.research.google.com/github/Synthesis-AI-Dev/face_api_dataset/blob/main/examples/quickstart.ipynb">colab</a> or <a className="underline" href="https://github.com/Synthesis-AI-Dev/face_api_dataset/blob/main/examples/quickstart.ipynb">jupyter notebook</a>. 
+                    </p>
+                    <br></br>
+                    <p>We also provide documentation on our annotation formats at <a className="underline" href="https://docs.synthesis.ai/outputs.html">https://docs.synthesis.ai/outputs.html</a></p>
+                </section>
+                <div id="footer-footer">
+                    <div id="copyright">
+                        Copyright © 2021. All rights reserved
+                    </div>
+                    <img id="bottom-logo" alt="logo" src={logoSvg} />
                 </div>
-                <img id="bottom-logo" alt="logo" src={logoSvg} />
             </section>
         </main>
     )
