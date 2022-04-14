@@ -102,7 +102,7 @@ const DatasetPageTemplate = ({ title, description, specifications, tasks, images
                 </h1>
                 <section className="default-text one-column-content " data-at="section">
                     <p className=''>
-                        The easiest wat to get started with our dataset is with our  <a className="underline" href="https://github.com/Synthesis-AI-Dev/face_api_dataset">face_api_dataset_library</a> in Python for parsing all of the output
+                        The easiest way to get started with our dataset is with our  <a className="underline" href="https://github.com/Synthesis-AI-Dev/face_api_dataset">face_api_dataset_library</a> in Python for parsing all of the output
                         files, with a <a className="underline" href="https://colab.research.google.com/github/Synthesis-AI-Dev/face_api_dataset/blob/main/examples/quickstart.ipynb">colab</a> or <a className="underline" href="https://github.com/Synthesis-AI-Dev/face_api_dataset/blob/main/examples/quickstart.ipynb">jupyter notebook</a>. 
                     </p>
                     <br></br>
